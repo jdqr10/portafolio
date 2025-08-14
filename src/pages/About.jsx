@@ -15,8 +15,8 @@ export default function About() {
           <h1 className="text-3xl font-bold">Sobre mí</h1>
           <p className="mt-4 ">
             Soy desarrollador de software junior con formación académica y
-            técnica sólida. Actualmente curso el cuarto semestre de Ingeniería
-            de Software y cuento con un título técnico en Desarrollo de
+            tecnológica sólida. Actualmente curso el cuarto semestre de Ingeniería
+            de Software y cuento con un título tecnológico en Desarrollo de
             Software. Tengo experiencia práctica con lenguajes como Java,
             JavaScript y PHP, y con frameworks como Spring Boot, React, Angular
             y Laravel, además de conocimientos en MySQL, HTML y CSS. <br />  <br /> He
