@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+}
+
+.bg-prism {
+  background-image: url('/public/subtle-prism.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-img {
+  background-image: url('/public/prooverten.png');
+}
+
+.element {
+  background-color: rgba(60, 54, 54, 0.5); /* 50% transparent red */
+}
